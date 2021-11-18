@@ -4,6 +4,10 @@
             box-sizing: border-box;
         }
         
+        html {
+            overflow-x: hidden;
+        }
+        
         body {
             background-image: linear-gradient(to right top, #3a3f4e, #393e4c, #383c4a, #373b49, #363a47, #383c49, #393d4b, #3b3f4d, #3f4453, #434858, #484d5e, #4c5264);
             background-size: cover;
