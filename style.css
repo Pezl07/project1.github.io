@@ -249,6 +249,10 @@
             margin-bottom: 50px;
         }
         
+        .card:last-child {
+            margin-right: 0px !important;
+        }
+        
         .card-all {
             margin-top: 90px;
         }
@@ -323,6 +327,10 @@
             .work {
                 padding-bottom: 0px;
             }
+            .card:nth-child(3),
+            .card:nth-child(4) {
+                margin-right: 0px !important;
+            }
         }
         
         @media only screen and (max-width: 890px) {
@@ -343,5 +351,14 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+        }
+        
+        @media only screen and (max-width: 756px) {
+            .card:nth-child(2) {
+                margin-right: 0px !important;
+            }
+            .card:nth-child(3) {
+                margin-right: 20px !important;
             }
         }

@@ -11,13 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Nunito&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b3774e40e6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
     <div class="container">
         <!-- Nav Bar -->
-        <nav>
+        <nav data-aos="fade-down" data-aos-duration="1000">
             <img src=".\img\Xbox-Logo-2013.png" id="icon-xbox">
             <ul>
                 <li><a href="#about" class="menu">About</a></li>
@@ -30,12 +32,12 @@
 
         <!-- About -->
         <div class="about" id="about">
-            <div class="description">
+            <div class="description" data-aos="zoom-in-down" data-aos-duration="1000">
                 <div class="name">XBox Controller</div>
                 <div class="information">This is a Hyper Ergonomic XBOX Controller Concept Makes Gaming Far More Comfortable</div>
                 <div class="add">ADD TO CART</div>
             </div>
-            <div class="product">
+            <div class="product" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="photo">
                     <img src=".\img\409-4098760_the-xbox-encyclopedia-xbox-series-x-controller-hd.png" alt="">
                     <div class="price">
@@ -65,13 +67,13 @@
 
         <!-- Shop -->
         <div class="shop" id="shop">
-            <div class="description1">
+            <div class="description1" data-aos="zoom-out-left">
                 <div class="store">Games play best on XBox One</div>
                 <div class="information">XBox Elite Wireless Controller Series 2</div>
                 <div class="pre">PRE-ORDER NOW <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></div>
             </div>
             <div class="product2">
-                <div class="photo2">
+                <div class="photo2" data-aos="fade-right">
                     <img src=".\img\Xbox-3.png" alt="">
                     <div class="price">
                     </div>
@@ -81,7 +83,7 @@
         </div>
 
         <!-- Function -->
-        <div class="function">
+        <div class="function" data-aos="zoom-out-down">
             <div class="our"> Our Functions</div>
             <div class="information">XBox Elite Wireless Controller Series 2</div>
             <div class="card-all">
@@ -121,6 +123,10 @@
 
 </body>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
