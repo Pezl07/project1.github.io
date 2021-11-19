@@ -61,6 +61,10 @@
         .fas {
             margin-right: 30px;
         }
+        
+        li:hover {
+            text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em white;
+        }
         /* End Nav Bar */
         /* Start Product  */
         
@@ -157,6 +161,10 @@
             cursor: pointer;
         }
         
+        .pre:hover {
+            text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em limegreen;
+        }
+        
         .product,
         .product1 {
             width: 55%;
@@ -251,6 +259,7 @@
             border-radius: 20px;
             margin-right: 20px;
             margin-bottom: 50px;
+            cursor: pointer;
         }
         
         .card:last-child {
@@ -280,6 +289,17 @@
             margin-top: 20px;
             font-size: 20px;
             color: limegreen;
+        }
+        
+        .card:hover {
+            border: limegreen 0.125em solid;
+            text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em limegreen;
+            box-shadow: inset 0 0 0.5em 0 limegreen, 0 0 0.5em 0 limegreen;
+        }
+        
+        .card:hover i,
+        .card:hover .fa {
+            text-shadow: 0 0 0.05em hsl(0 0% 100% / 0.5), 0 0 0.05em green;
         }
         /* End Function */
         
