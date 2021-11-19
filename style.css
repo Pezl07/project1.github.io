@@ -306,6 +306,7 @@
             }
             .add {
                 float: center !important;
+                font-size: 10px;
             }
             .product1 {
                 padding: 100px 0 100px !important;
@@ -347,9 +348,6 @@
             }
             .name {
                 padding: 10px 10px 0px;
-            }
-            .add {
-                font-size: 10px;
             }
             nav ul {
                 display: none;
